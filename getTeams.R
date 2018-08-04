@@ -12,5 +12,7 @@ getTeams <- function(year){
     teams <- read.csv("data/teams.csv", stringsAsFactors = FALSE)
     selection <- (teams$yearID == year)
     teams <- teams [ selection , ]
-    return(teams$franchID)
+    return(teams$teamIDBR)
 }
+
+# [END]

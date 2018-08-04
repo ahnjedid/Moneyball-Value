@@ -74,3 +74,6 @@ collectData <- function(year){
     
     return(combinedData)
 }
+
+# [END]
+

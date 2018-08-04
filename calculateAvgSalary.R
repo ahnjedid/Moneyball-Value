@@ -23,3 +23,5 @@ calculateAvgSalary <- function(year){
     # from the total salary.
     return(total_salary / total_WAR)
 }
+
+# [END]

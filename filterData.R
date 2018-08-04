@@ -18,3 +18,6 @@ filterData <- function(combinedData, team){
     
     return(combinedData)
 }
+
+# [END]
+

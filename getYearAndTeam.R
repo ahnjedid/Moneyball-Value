@@ -56,4 +56,13 @@ combinedData [ selection , ][ , "deserved_salary"] <- 0
 
 # Plot the data.
 source("plotData.R")
-plotData(combinedData)
+plotData(combinedData, year, team)
+
+# Clean up data.
+rm(selection)
+rm(team)
+rm(teams)
+rm(year)
+rm(years)
+
+# [END]

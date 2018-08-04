@@ -28,10 +28,14 @@ plotData <- function(combinedData, year, team){
             add = TRUE,
             col = "#32CD3255")
 
+    # Allows for legend to be outside of plotting region.
+    par(xpd = TRUE)
+    
     legend("topright",
            c("Actual", "Deserved"),
-           cex = 0.8,
            fill = c("#FF000055", "#32CD3255"),
+           cex = 0.8,
+           inset = c(-0.09,-0.18),
            bty = 'n')
 }
 

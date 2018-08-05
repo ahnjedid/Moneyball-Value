@@ -20,7 +20,8 @@ plotData <- function(combinedData, year, team){
             ylim = range(pretty
                          (c(0, 
                             max(combinedData$actual_salary / 1000000, 
-                                combinedData$deserved_salary / 1000000)))),
+                                combinedData$deserved_salary / 1000000) + 1)
+                           )),
             col = "#FF000055")
     
     barplot(combinedData$deserved_salary / 1000000,

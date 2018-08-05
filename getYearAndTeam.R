@@ -27,12 +27,12 @@ source("getTeams.R")
 teams <- getTeams(year)
 # Ask user for a team ID out of the ones listed.
 print(teams)
-team <- readline(
-  prompt = "Please type a team ID of interest from the list above: ")
+team <- toupper(readline(
+  prompt = "Please type a team ID of interest from the list above: "))
 while(!(any(team %in% teams))){
     print(teams)
-    team <- readline(
-      prompt = "Please type a team ID of interest from the list above: ")
+    team <- toupper(readline(
+      prompt = "Please type a team ID of interest from the list above: "))
 }
 
 

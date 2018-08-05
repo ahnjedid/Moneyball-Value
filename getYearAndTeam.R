@@ -34,6 +34,7 @@ while(!(any(team %in% teams))){
     team <- toupper(readline(
       prompt = "Please type a team ID of interest from the list above: "))
 }
+print("Please wait while it processes...")
 
 
 # Collect and filter data depending on the given year and team of interest.
@@ -57,6 +58,8 @@ combinedData [ selection , ][ , "deserved_salary"] <- 0
 # Plot the data.
 source("plotData.R")
 plotData(combinedData, year, team)
+
+print("Done! Please click the zoom button above the bar graph.")
 
 # Clean up data.
 rm(selection)

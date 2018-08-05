@@ -12,7 +12,7 @@
 plotData <- function(combinedData, year, team){
     barplot(combinedData$actual_salary / 1000000,
             las = 2,
-            ylab = "Salary in millions of dollars",
+            ylab = "Salary in millions of dollars (USD)",
             names.arg = combinedData$last_name,
             main = paste("Moneyball Value of", year, team, "players", 
                          sep = " "),

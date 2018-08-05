@@ -18,7 +18,9 @@ This program has been designed to assess a baseball team’s money efficiency (M
 The end result is a bar graph plotting salaries vs players’ last names. Deserved salary (in green) and actual salary (in red) are plotted on the same bar for direct comparison.
 
     • If a player’s bar contains green, it means that they are worth more than their actual salary and are underpaid. The more green their bar contains, the more underpaid they are.
+    • If a player's bar contains green, the part coloured in olive represents their actual salary.
     • If a player’s bar contains red, it means that they are not worth their actual salary and are overpaid.  The more red their bar contains, the more overpaid they are.
+    • If a player's bar contains red, the part coloured in olive represents their deserved salary based on their WAR.
     • If a player’s bar contains neither green nor red, it means that they are roughly getting paid what they’re worth.
 
 <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/barGraphScreenshot.png">

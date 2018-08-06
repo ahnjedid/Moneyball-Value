@@ -1,5 +1,5 @@
 # Moneyball-Value
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/coverPhoto.png">
+<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/coverPhoto.png">
 
 <hr>
 
@@ -23,7 +23,7 @@ The end result is a bar graph plotting salaries vs players’ last names. Deserv
     • If a player's bar contains red, the part coloured in olive represents their deserved salary based on their WAR.
     • If a player’s bar contains neither green nor red, it means that they are roughly getting paid what they’re worth.
 
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/barGraphScreenshot.png">
+<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/barGraphScreenshot.png">
 
 <hr>
 
@@ -33,7 +33,7 @@ The end result is a bar graph plotting salaries vs players’ last names. Deserv
     3. It will then print a list of all teams in MLB for that year (in 3 letter team abbreviations) and ask you to type in 1 of them.  
     4. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
     
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/inputScreenshot.png">
+<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
 
 Notes:
 

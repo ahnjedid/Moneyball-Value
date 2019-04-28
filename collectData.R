@@ -72,6 +72,10 @@ collectData <- function(year){
     # Change actual_salary values to numeric.
     combinedData$actual_salary <- as.numeric(combinedData$actual_salary)
     
+    
+    # NEW: Remove any possible anomalies in updated data off internet.
+    combinedData <- na.omit(combinedData)
+    
     return(combinedData)
 }
 

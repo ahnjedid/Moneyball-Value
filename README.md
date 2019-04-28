@@ -17,34 +17,39 @@ This program has been designed to assess a baseball team’s money efficiency (M
 
 The end result is a bar graph plotting salaries vs players’ last names. Deserved salary (in green) and actual salary (in red) are plotted on the same bar for direct comparison.
 
-    • If a player’s bar contains green, it means that they are worth more than their actual salary and are underpaid. The more green their bar contains, the more underpaid they are.
-    • If a player's bar contains green, the part coloured in olive represents their actual salary.
-    • If a player’s bar contains red, it means that they are not worth their actual salary and are overpaid.  The more red their bar contains, the more overpaid they are.
-    • If a player's bar contains red, the part coloured in olive represents their deserved salary based on their WAR.
-    • If a player’s bar contains neither green nor red, it means that they are roughly getting paid what they’re worth.
+<ul>
+    <li>If a player’s bar contains green, it means that they are worth more than their actual salary and are underpaid. The more green their bar contains, the more underpaid they are.</li>
+    <li>If a player's bar contains green, the part coloured in olive represents their actual salary.</li>
+    <li>If a player’s bar contains red, it means that they are not worth their actual salary and are overpaid.  The more red their bar contains, the more overpaid they are.</li>
+    <li>If a player's bar contains red, the part coloured in olive represents their deserved salary based on their WAR.</li>
+    <li>If a player’s bar contains neither green nor red, it means that they are roughly getting paid what they’re worth.</li>
+</ul>
 
 <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/barGraphScreenshot.png">
 
 <hr>
 
-### How to run the program
-    1. Start by sourcing the file “getYearAndTeam.R”.  
-    2. It will ask you to input a year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
-    3. It will then print a list of all teams in MLB for that year (in 3 letter team abbreviations) and ask you to type in 1 of them.  
-    4. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
+### Installation
+To set up, please install <a href="https://cran.r-project.org/">R</a> first and then <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a>. No installation of any packages is required.
+
+<hr>
+
+### Deployment
+1. Clone the repository through Git by running the following command:<br>
+`git clone https://github.com/ahnjedid/Moneyball-Value.git`, or simply download the repository.
+2. Source the file “getYearAndTeam.R”. 
+3. It will ask you to input a year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
+4. It will then print a list of all teams in MLB for that year (in 3 letter team abbreviations) and ask you to type in 1 of them.  
+5. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
     
 <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
 
-Notes:
+Please note that MLB teams that currently do not exist are included if you input a year in which the team did exist (Ex: 2004 Montreal Expos).
 
-    • Input is foolproof to ensure that nothing else other than year and team abbreviation are accepted respectively.
-    • Although the abbreviations are all printed as uppercase, lowercase is accepted as input.  
-    • Please note that MLB teams that currently do not exist are included if you input a year in which the team did exist (Ex: 2004 Montreal Expos).
-    
 <hr>
 
 ### Program Limitations
-Players who have switched teams mid-season will not appear in the bar graph of any teams that they were a part of for the given year.  Although the WAR that they gathered for each team was recorded, their salary for each respective team was not.   Thus, it was not possible to plot their actual salary.
+Players who have switched teams mid-season will not appear in the bar graph of any teams that they were a part of for the given year.  Although the WAR that they gathered for each team was recorded, their salary for each respective team was not. Thus, it was not possible to plot their actual salary.
 
 In addition, some players may not appear in the bar graph for a given year, although they have played for their team for a full season.  This is because either their WAR or salary was written as “NULL” in the .csv files (which is out of my control), and thus, their name had to be filtered out.
 

@@ -49,12 +49,13 @@ To set up, please install <a href="https://cran.r-project.org/">R</a> first and 
 ### Program Instructions
 1. Source the file getYearAndTeam.R. 
 2. Input an year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
-3. A list of all teams in MLB for that particular year (in 3 letter team abbreviations) will be printed. Type in the team abbreviation of interest. 
+3. A list of all teams in MLB for that particular year (in 3 letter team abbreviations) will be printed. Type in the team ID of interest. 
 4. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
 
 <kbd>
     <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
 </kbd>
+
 <br>
 Please note that MLB teams that currently do not exist are included if you input a year in which the team did exist (Ex: 2004 Montreal Expos).
 

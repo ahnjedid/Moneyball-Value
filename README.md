@@ -41,15 +41,21 @@ To set up, please install <a href="https://cran.r-project.org/">R</a> first and 
 ### Deployment
 1. Clone the repository through Git by running the following command:<br>
 `git clone https://github.com/ahnjedid/Moneyball-Value.git`, or simply download the repository.
-2. Source the file “getYearAndTeam.R”. 
-3. It will ask you to input a year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
-4. It will then print a list of all teams in MLB for that year (in 3 letter team abbreviations) and ask you to type in 1 of them.  
-5. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
+2. Open RStudio, go to File -> Open Project, go to the repository, and double click Moneyball-Value (Moneyball-Value.Rproj).
+3. Open getYearAndTeam.R in the RStudio file interface.
+
+<hr>
+
+### Program Instructions
+1. Source the file getYearAndTeam.R. 
+2. Input an year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
+3. A list of all teams in MLB for that particular year (in 3 letter team abbreviations) will be printed. Type in the team abbreviation of interest. 
+4. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
 
 <kbd>
     <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
 </kbd>
-
+<br>
 Please note that MLB teams that currently do not exist are included if you input a year in which the team did exist (Ex: 2004 Montreal Expos).
 
 <hr>

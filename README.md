@@ -1,5 +1,7 @@
 # Moneyball-Value
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/coverPhoto.png">
+<kbd>
+    <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/coverPhoto.png">
+</kbd>
 
 <hr>
 
@@ -25,7 +27,9 @@ The end result is a bar graph plotting salaries vs players’ last names. Deserv
     <li>If a player’s bar contains neither green nor red, it means that they are roughly getting paid what they’re worth.</li>
 </ul>
 
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/barGraphScreenshot.png">
+<kbd>
+    <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/barGraphScreenshot.png">
+</kbd>
 
 <hr>
 
@@ -41,8 +45,10 @@ To set up, please install <a href="https://cran.r-project.org/">R</a> first and 
 3. It will ask you to input a year between 1871 and 2018 (as 1871 is the earliest year that baseball statistics were recorded).
 4. It will then print a list of all teams in MLB for that year (in 3 letter team abbreviations) and ask you to type in 1 of them.  
 5. A bar graph will appear to the right of the console.  To enlarge the bar graph, click the zoom button above it.
-    
-<img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
+
+<kbd>
+    <img src="https://github.com/ahnjedid/Moneyball-Value/blob/master/screenshots/inputScreenshot.png">
+</kbd>
 
 Please note that MLB teams that currently do not exist are included if you input a year in which the team did exist (Ex: 2004 Montreal Expos).
 
